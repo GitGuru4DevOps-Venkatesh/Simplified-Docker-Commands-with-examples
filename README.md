@@ -79,7 +79,7 @@ Simplified examples for the Docker commands you provided:
      - Displays the logs of the container named "my_container".
 
 ### 10. `docker exec` - Execute a command inside a running container
-    - **Example:** 
+   _ **Example:**
       ```bash
       docker exec -it my_container bash
       ```
@@ -88,7 +88,7 @@ Simplified examples for the Docker commands you provided:
       - `bash`: Executes the Bash shell inside the running container named "my_container".
 
 ### 11. `docker images` - List available images
-    - **Example:** 
+   - **Example:** 
       ```bash
       docker images
       ```
@@ -96,7 +96,7 @@ Simplified examples for the Docker commands you provided:
       - Lists the locally available Docker images.
 
 ### 12. `docker rm` - Remove a container
-    - **Example:** 
+   - **Example:** 
       ```bash
       docker rm my_container
       ```
@@ -104,7 +104,7 @@ Simplified examples for the Docker commands you provided:
       - Removes the container named "my_container".
 
 ### 13. `docker rmi` - Remove an image
-    - **Example:** 
+   - **Example:** 
       ```bash
       docker rmi my_image:tag
       ```
@@ -112,7 +112,7 @@ Simplified examples for the Docker commands you provided:
       - Removes the local image with the specified tag.
 
 ### 14. `docker inspect` - Show information about a container
-    - **Example:** 
+   - **Example:** 
       ```bash
       docker inspect my_container
       ```
@@ -120,7 +120,7 @@ Simplified examples for the Docker commands you provided:
       - Displays detailed information about the container named "my_container".
 
 ### 15. `docker network create` - Create a network for containers to communicate
-    - **Example:** 
+ - **Example:** 
       ```bash
       docker network create my_network
       ```
@@ -128,7 +128,7 @@ Simplified examples for the Docker commands you provided:
       - Creates a Docker network named "my_network" for containers to communicate.
 
 ### 16. `docker network connect` - Connect a container to a network
-    - **Example:** 
+ - **Example:** 
       ```bash
       docker network connect my_network my_container
       ```
@@ -136,11 +136,11 @@ Simplified examples for the Docker commands you provided:
       - Connects the container named "my_container" to the "my_network" network.
 
 ### 17. `docker network disconnect` - Disconnect a container from a network
-    - **Example:** 
+   - **Example:** 
       ```bash
       docker network disconnect my_network my_container
       ```
-    - **Explanation:**
+   **Explanation:**
       - Disconnects the container named "my_container" from the "my_network" network.
 
 ### 18. `docker port` - Show the mapped ports of a container
@@ -148,7 +148,7 @@ Simplified examples for the Docker commands you provided:
       ```bash
       docker port my_container
       ```
-    - **Explanation:**
+   **Explanation:**
       - Displays the mapped ports of the container named "my_container".
 
 ### 19. `docker cp` - Copy files between a container and the host
@@ -156,17 +156,16 @@ Simplified examples for the Docker commands you provided:
       ```bash
       docker cp my_container:/path/in/container /path/on/host
       ```
-    - **Explanation:**
+ - **Explanation:**
       - Copies files from the specified path in the container to the specified path on the host.
 
 ### 20. `docker commit` - Create a new image from a container's changes
     - **Example:** 
       ```bash
 
-
       docker commit my_container my_new_image:tag
       ```
-    - **Explanation:**
+   - **Explanation:**
       - Creates a new image named "my_new_image" with the specified tag from the changes made to the container named "my_container".
 
 ### 21. `docker login` - Log in to a registry
